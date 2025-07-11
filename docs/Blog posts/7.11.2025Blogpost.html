@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog Post Title - Kennedy's PC Repair and Builds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #12121a;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #2a2b3d;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo-container img {
+      width: 40px;
+      height: 40px;
+      margin-right: 0.75rem;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+    nav a {
+      color: #ffffff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #3abefb;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+      animation: fadeInUp 1s ease-out;
+    }
+    article h1 {
+      color: #3abefb;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+    article .post-date {
+      color: #999;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+    article p {
+      line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #3abefb;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+      color: #33a8db;
+    }
+    footer {
+      background-color: #2a2b3d;
+      text-align: center;
+      padding: 2rem 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      animation: fadeInUp 1s ease-out;
+      position: relative;
+    }
+    footer button {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 10px 20px;
+      background-color: #3abefb;
+      color: #12121a;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    footer button:hover {
+      background-color: #33a8db;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../1.Images/logo.png" alt="Logo"> 
+      <strong>Kennedy's PC Repair and Builds</strong>
+    </div>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h1>The website is online!</h1>
+      <div class="post-date">Published on July 11, 2025</div>
+      <p>
+        Well after about a month of editing and trying to figure out how I want the website to look and work
+        we've done it!
+      </p>
+      <p>
+        Now there's more work that needs to be done (like making the website look good on mobile) but this is a good start.
+        We have a new build coming up that we will show off in the custom build gallery that im really excited for!
+        We plan on uploading a YouTube video showing how we did it and we will make a new blog post with the link.
+      </p>
+      <p>
+        A YouTube button in the footer would be a good thing to add so ill put that on the to-do list. If there are any
+        suggestions for anything please let us know in the "contact us" section.
+      </p>
+      <p>
+        Thank you for reading and checking us out!
+      </p>
+      <p>
+        -Nathan Kennedy
+      </p>
+      <!-- Add more paragraphs, images, or sections as needed -->
+    </article>
+    <a href="../mainblogpage.html" class="back-link">&larr; Back to blog</a>
+  </main>
+
+  <footer>
+    <div>&copy; 2025 Kennedy's PC Repair and Builds. All rights reserved.</div>
+    <button onclick="window.location.href='../contact.html'">Contact Us</button>
+  </footer>
+</body>
+</html>
